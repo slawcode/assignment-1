@@ -1,13 +1,16 @@
+/* Universal selector for box-sixing, padding and margin values throughout webpage */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body background color on webpage */
 body {
     background-color: #d9dcd6;
 }
 
+/* Horiseon header values */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,11 +23,13 @@ body {
     font-size: 48px;
 }
 
+/* Horiseon header letters 'seo' different color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* Values for unordered list in header */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +37,12 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* List-style-type: none removes any type of bullet icon from unordered list at top right */
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,6 +56,7 @@ p {
     font-size: 16px;
 }
 
+/* Digital Marketing Meeting image values */
 .hero {
     height: 800px;
     width: 100%;
@@ -75,6 +82,8 @@ p {
     margin-left: 20px;
 }
 
+/* Side colume values 
+Side column section values */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +95,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Side colume header values */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -116,6 +126,7 @@ p {
     text-align: center;
 }
 
+/* Side colume image values */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -134,6 +145,7 @@ p {
     max-width: 150px;
 }
 
+/* Body section (to left of side colume) values */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +173,7 @@ p {
     color: #ffffff;
 }
 
+/* Body section max-height for images */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,21 +186,16 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* H2 values */
+.search-engine-optimization h2,
+.online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Footer values
+Clear:both moves the footer down past both left and right body sections which are above */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +203,7 @@ p {
     text-align: center;
 }
 
+/* Footer text font size */
 .footer h2 {
     font-size: 20px;
 }
