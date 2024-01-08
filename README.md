@@ -17,7 +17,9 @@ Challenge 1 - Horiseon Optimitization
 
 - To use this website all that is needed is a browser and an internet connection. Once the webpage is placed in the brower the website will open.
 
-- No authentications are needed to access the website. 
+- No authentications are needed to access the website.
+
+![Alt text](<Screenshot 2024-01-07 at 9.19.42 PM (2).png>)
 
 ## Credits 
 
