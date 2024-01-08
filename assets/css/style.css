@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-/* Body background color */
+/* Body background color on webpage */
 body {
     background-color: #d9dcd6;
 }
@@ -37,6 +37,7 @@ body {
     font-size: 20px;
 }
 
+/* List-style-type: none removes any type of bullet icon from unordered list */
 .header nav ul {
     list-style-type: none;
 }
@@ -55,7 +56,7 @@ p {
     font-size: 16px;
 }
 
-/* Digital Marketing Meeting image */
+/* Digital Marketing Meeting image values */
 .hero {
     height: 800px;
     width: 100%;
@@ -81,6 +82,8 @@ p {
     margin-left: 20px;
 }
 
+/* Side colume values 
+Side column section values */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -92,6 +95,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Side colume header values */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -122,7 +126,7 @@ p {
     text-align: center;
 }
 
-/*  */
+/* Side colume image values */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -169,7 +173,7 @@ p {
     color: #ffffff;
 }
 
-/* Image max-height values */
+/* Body section image max-height */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -198,9 +202,8 @@ p {
     font-size: 36px;
 }
 
-/* Footer values */
-
-/* Clear:both moves the footer down past both left and right sections above */
+/* Footer values
+Clear:both moves the footer down past both left and right body sections above */
 .footer {
     padding: 30px;
     clear: both;
