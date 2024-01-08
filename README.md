@@ -8,10 +8,11 @@ Challenge 1 - Horiseon Optimitization
 - Code was refactored to increase search engine optimization. 
 - Non-semantic HTML code was originally used and changed to follow semantic structure. 
 - People with disabilities using web assistive devices can access this website.
+- Alternative text was added to HTML to provide descriptions of all images. 
 - Increasing the accessibility of the website will also help business for this marketing agency. Since the website is more accessible it will rank higher in search engines. 
-- Some challenges occurred in the process of refactoring HTML elements to follow semantic structure. The original layout of the website was lost at times but in the end maintained and all links are functioning correctly. 
+- Some challenges occurred in the process of refactoring HTML elements to follow semantic structure. The original layout of the website was lost at times but in the end maintained and links are functioning correctly. 
 - Challenges also occurred with CSS in attempts to consolidate selectors and properties and increase its efficiency. 
-- Through the refactoring of code I learned the importance of making a website accessible for everyone and how helpful HTML image alt attribute descriptors can be for those using assistive technologies. As well, how using semantic HTML elements can increase a websites accessibility. 
+- Through the refactoring of code I learned the importance of making a website accessible for everyone and how helpful HTML image alt attribute descriptors can be for those using assistive technologies or in an instance where the image does not load. As well, how using semantic HTML elements can increase a websites accessibility. 
 
 ## Usage 
 
@@ -19,7 +20,7 @@ Challenge 1 - Horiseon Optimitization
 
 - No authentications are needed to access the website.
 
-![Alt text](<Screenshot 2024-01-07 at 9.19.42 PM (2).png>)
+![Screenshot of Horiseon website open in browser](<./assets/images/Screenshot 2024-01-08 at 12.57.17 PM (2).png>)
 
 ## Credits 
 

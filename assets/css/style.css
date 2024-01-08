@@ -1,4 +1,4 @@
-/* Universal selector for box-sixing, padding and margin values throughout webpage*/
+/* Universal selector for box-sixing, padding and margin values throughout webpage */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -37,7 +37,7 @@ body {
     font-size: 20px;
 }
 
-/* List-style-type: none removes any type of bullet icon from unordered list */
+/* List-style-type: none removes any type of bullet icon from unordered list at top right */
 .header nav ul {
     list-style-type: none;
 }
@@ -145,7 +145,7 @@ Side column section values */
     max-width: 150px;
 }
 
-/* Body section to left of side colume values */
+/* Body section (to left of side colume) values */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -173,7 +173,7 @@ Side column section values */
     color: #ffffff;
 }
 
-/* Body section image max-height */
+/* Body section max-height for images */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -203,7 +203,7 @@ Side column section values */
 }
 
 /* Footer values
-Clear:both moves the footer down past both left and right body sections above */
+Clear:both moves the footer down past both left and right body sections which are above */
 .footer {
     padding: 30px;
     clear: both;
@@ -211,6 +211,7 @@ Clear:both moves the footer down past both left and right body sections above */
     text-align: center;
 }
 
+/* Footer text font size */
 .footer h2 {
     font-size: 20px;
 }
