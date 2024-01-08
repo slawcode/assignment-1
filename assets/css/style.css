@@ -1,13 +1,16 @@
+/* Universal selector for box-sixing, padding and margin values throughout webpage*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Horiseon header values */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +23,12 @@ body {
     font-size: 48px;
 }
 
+/* Horiseon header letters 'seo' different color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Values for unordered list in header */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +55,7 @@ p {
     font-size: 16px;
 }
 
+/* Digital Marketing Meeting image */
 .hero {
     height: 800px;
     width: 100%;
@@ -116,6 +122,7 @@ p {
     text-align: center;
 }
 
+/*  */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -134,6 +141,7 @@ p {
     max-width: 150px;
 }
 
+/* Body section to left of side colume values */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +169,7 @@ p {
     color: #ffffff;
 }
 
+/* Image max-height values */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +182,7 @@ p {
     max-height: 200px;
 }
 
+/* H2 values */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +198,9 @@ p {
     font-size: 36px;
 }
 
+/* Footer values */
+
+/* Clear:both moves the footer down past both left and right sections above */
 .footer {
     padding: 30px;
     clear: both;
